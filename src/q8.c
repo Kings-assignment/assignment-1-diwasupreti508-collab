@@ -2,3 +2,15 @@
 temperature in Celsius and display the equivalent temperature in Fahrenheit.
 (Formula: fahrenheit = (celsius * 9 / 5) + 32) */
 
+#include <stdio.h>
+int main() {
+    float celsius, fahrenheit;
+
+    printf("Enter temperature in Celsius: ");
+    scanf("%f",&celsius);
+    fahrenheit = (celsius * 9 / 5) + 32;
+
+    printf("Temperature in fahrenheit:%.2f\n", fahrenheit);
+
+    return 0;
+}
